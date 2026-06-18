@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">AI Internship Matcher</title>
+  <desc id="logoDesc">Blue and white AI Internship Matcher logo with a briefcase, network nodes, and two-line wordmark.</desc>
+  <defs>
+    <linearGradient id="blueGradient" x1="148" y1="54" x2="248" y2="166" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1677F2"/>
+      <stop offset="1" stop-color="#084CA8"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="145%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#0F172A" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="640" height="220" fill="#FFFFFF"/>
+
+  <g filter="url(#softShadow)">
+    <path d="M118 56C126 39 143 29 164 29H232C259 29 281 51 281 78V142C281 169 259 191 232 191H164C143 191 126 181 118 164" fill="none" stroke="#1677F2" stroke-width="12" stroke-linecap="round"/>
+
+    <g fill="none" stroke="#1677F2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M72 88L98 70L124 90L123 122L95 142L66 126L72 88Z"/>
+      <path d="M98 70V36M98 70L126 54M124 90L155 112M123 122L149 156M95 142L80 176M66 126L35 110"/>
+      <path d="M95 142L123 122M72 88L124 90M80 176L111 172L149 156"/>
+    </g>
+    <g fill="#1677F2">
+      <circle cx="98" cy="36" r="15"/>
+      <circle cx="126" cy="54" r="12"/>
+      <circle cx="35" cy="110" r="15"/>
+      <circle cx="72" cy="88" r="12"/>
+      <circle cx="95" cy="142" r="12"/>
+      <circle cx="80" cy="176" r="15"/>
+      <circle cx="149" cy="156" r="12"/>
+    </g>
+
+    <g>
+      <rect x="151" y="91" width="94" height="80" rx="14" fill="url(#blueGradient)"/>
+      <path d="M151 126C170 133 186 137 198 139C210 137 226 133 245 126" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+      <path d="M176 91V80C176 72 182 66 190 66H206C214 66 220 72 220 80V91" fill="none" stroke="#1677F2" stroke-width="9" stroke-linecap="round"/>
+      <rect x="190" y="133" width="16" height="24" rx="4" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <g font-family="Inter, Arial, Helvetica, sans-serif" font-weight="800">
+    <text x="326" y="95" font-size="52" letter-spacing="-1">
+      <tspan fill="#1677F2">AI</tspan>
+      <tspan dx="18" fill="#08233F">Internship</tspan>
+    </text>
+    <text x="326" y="161" fill="#08233F" font-size="58" letter-spacing="-1.2">Matcher</text>
+  </g>
+</svg>
